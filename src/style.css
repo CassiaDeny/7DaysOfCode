@@ -183,6 +183,10 @@ section {
   padding-right: 5px;
 }
 
+.-animation:hover {
+  margin: 0 40px;
+  transform: scale(1.2);
+}
 
 
 /* Fim listas */
