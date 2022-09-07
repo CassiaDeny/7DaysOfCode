@@ -1,4 +1,5 @@
 
+/* Início Geral  */
 * {
     box-sizing: border-box;
   }
@@ -31,6 +32,9 @@ body {
     padding: 0 3rem;
   }
 
+  /* Fim Geral  */
+
+  /* Início Banner */
 .banner {
     height: 80%;
     display: flex;
@@ -88,3 +92,65 @@ body {
   .banner__btn i {
     margin-right: 0.5rem;
   }
+
+/* Fim Banner */
+
+/* Início Menu */
+header {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 5.8rem;
+  cursor: pointer;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  color: rgba(255,255,255,0.697);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.header__menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.header__menu ul li {
+  padding-right: 0.9rem;
+}
+
+.header__menu--left ul li:hover {
+  color: white;
+}
+
+.header__menu--right {
+  color: white;
+  font-size: 20px;
+}
+
+.header__menu--right ul li {
+  padding-right: 1.2rem;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.header__user img {
+  width: 2rem;
+  margin-right: 0.5rem;
+  border-radius: 3px;
+}
+
+
+
+/* Fim Menu */
